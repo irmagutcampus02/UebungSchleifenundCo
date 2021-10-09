@@ -8,5 +8,14 @@ public class Turm {
             System.out.println(j);
         }
         System.out.println("so so ");
+
+
+        int k = 1;
+        while (k <= 10 ) {
+            System.out.println("k = " + k);
+            k++;
+            int x = 3;
+            //x ist nur in der while SChleife vorhanden
+        }
     }
 }
