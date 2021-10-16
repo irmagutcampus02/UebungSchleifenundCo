@@ -17,5 +17,8 @@ public class Turm {
             int x = 3;
             //x ist nur in der while SChleife vorhanden
         }
+
+
+
     }
 }
