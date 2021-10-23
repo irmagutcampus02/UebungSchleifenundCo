@@ -1,8 +1,9 @@
 public class BankDemoApp {
     public static void main(String[] args) {
 
+
         Konto max = new Konto("Max Mustermann");
-        max.setKontoInhaber("Max Mustermann");
+       // max.setKontoInhaber("Max Mustermann");
         max.print();
 
         max.aufbuchen(1000);
@@ -15,7 +16,7 @@ public class BankDemoApp {
         max.print();
 
         //Konto susi = new Konto();
-        Konto susi = new Konto("Susi Sorglos");
+        Konto susi = new Konto("Susi Sorglos" );
         susi.aufbuchen(100_000);
         susi.print();
 // Damit nicht etwas annonym aufgebucht werden kann - brauche ich / will ich einen Kontoinhaber
@@ -24,7 +25,8 @@ public class BankDemoApp {
         //ABHILFE _ Konstruktoren
         // haben keinen Rückgabetyp und sind nach der Klasse benannt
 
-
+        Konto john = new Konto("John Doe");
+        john.print();
 
 
     }
